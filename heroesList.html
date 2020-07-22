@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- {% extends 'index.html' %}
+
+{% block title %}Heroes{% endblock %}
+{% block content %} -->
+    <table id="role_select">
+        <tr>
+            <td> <a href="/"> All </a></td>
+            <td> <a href="/"> Tank </a></td>
+            <td> <a href="/"> Bruiser </a></td>
+            <td> <a href="/"> Specialist </a></td>
+            <td> <a href="/"> Healer </a></td>
+            <td> <a href="/"> Ranged Assassin </a></td>
+            <td> <a href="/"> melee Assassin </a></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td> <a href="/"><img src="https://static.heroesofthestorm.com/heroes/mei/skins/adventuring-climatologist-800.jpg" alt="Mei" class="hero_portrait"> <span class="hero_name"> Mei </span></a></td>
+            <td> <a href="/"><img src="https://static.heroesofthestorm.com/heroes/deathwing/skins/the-destroyer-800.jpg" alt="Deathwing" class="hero_portrait"> <span class="hero_name"> Deathwing </span></a</td>
+            <td> <a href="/"><img src="https://www.destructoid.com/ul/563253-heroes-of-the-storm-s-qhira-might-not-be-highly-requested-but-her-whip-sword-is-welcome/QQRA1.jpg" alt="Qhira" class="hero_portrait"> <span class="hero_name"> Qhira </span></a</td>
+            <td> <a href="/"><img src="https://gamepedia.cursecdn.com/allstars_gamepedia/f/fd/Anduin_Westfall.jpg" alt="Anduin" class="hero_portrait"> <span class="hero_name"> Anduin </span></a</td>
+            <td> <a href="/"><img src="https://static.heroesofthestorm.com/heroes/imperius/skins/archangel-of-valor-800.jpg" alt="Imperius" class="hero_portrait"> <span class="hero_name"> Imperius </span></a</td>
+            <td> <a href="/"><img src="https://psionic-storm.com/media/img/skins/thumbnails/heir-of-raven-court.jpg" alt="Orphea" class="hero_portrait"> <span class="hero_name"> Orphea </span></a</td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Mal'Ganis </span></td>
+            <td> <span class="hero_name"> Mephisto </span></td>
+            <td> <span class="hero_name"> Whitemane </span></td>
+            <td> <span class="hero_name"> Yrel </span></td>
+            <td> <span class="hero_name"> Deckard </span></td>
+            <td> <span class="hero_name"> Fenix </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Maiev </span></td>
+            <td> <span class="hero_name"> Blaze </span></td>
+            <td> <span class="hero_name"> Hanzo </span></td>
+            <td> <span class="hero_name"> Alexstrasza </span></td>
+            <td> <span class="hero_name"> Junkrat </span></td>
+            <td> <span class="hero_name"> Ana </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Kel'Thuzad </span></td>
+            <td> <span class="hero_name"> Garrosh </span></td>
+            <td> <span class="hero_name"> Stukov </span></td>
+            <td> <span class="hero_name"> Malthael </span></td>
+            <td> <span class="hero_name"> D.Va </span></td>
+            <td> <span class="hero_name"> Genji </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Cassia </span></td>
+            <td> <span class="hero_name"> Probius </span></td>
+            <td> <span class="hero_name"> Lucio </span></td>
+            <td> <span class="hero_name"> Valeera </span></td>
+            <td> <span class="hero_name"> Zul'jin </span></td>
+            <td> <span class="hero_name"> Ragnaros </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Varian </span></td>
+            <td> <span class="hero_name"> Samuro </span></td>
+            <td> <span class="hero_name"> Zarya </span></td>
+            <td> <span class="hero_name"> Alarak </span></td>
+            <td> <span class="hero_name"> Auriel </span></td>
+            <td> <span class="hero_name"> Gul'dan </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> medivh </span></td>
+            <td> <span class="hero_name"> Chromie </span></td>
+            <td> <span class="hero_name"> Tracer </span></td>
+            <td> <span class="hero_name"> Dehaka </span></td>
+            <td> <span class="hero_name"> Xul </span></td>
+            <td> <span class="hero_name"> Li-Ming </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Greymane </span></td>
+            <td> <span class="hero_name"> Lunara </span></td>
+            <td> <span class="hero_name"> Cho </span></td>
+            <td> <span class="hero_name"> Gall </span></td>
+            <td> <span class="hero_name"> Artanis </span></td>
+            <td> <span class="hero_name"> Lt. Morales </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Rexxar </span></td>
+            <td> <span class="hero_name"> Kharazim </span></td>
+            <td> <span class="hero_name"> Leoric </span></td>
+            <td> <span class="hero_name"> The Butcher </span></td>
+            <td> <span class="hero_name"> Johanna </span></td>
+            <td> <span class="hero_name"> Kael'thas </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Sylvanas </span></td>
+            <td> <span class="hero_name"> The Lost Vikings </span></td>
+            <td> <span class="hero_name"> Thrall </span></td>
+            <td> <span class="hero_name"> Jaina </span></td>
+            <td> <span class="hero_name"> Azmodan </span></td>
+            <td> <span class="hero_name"> Anub'arak </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Chen </span></td>
+            <td> <span class="hero_name"> Rehgar </span></td>
+            <td> <span class="hero_name"> Zagara </span></td>
+            <td> <span class="hero_name"> Murky </span></td>
+            <td> <span class="hero_name"> Brightwing </span></td>
+            <td> <span class="hero_name"> Li Li </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Tychus </span></td>
+            <td> <span class="hero_name"> Abathur </span></td>
+            <td> <span class="hero_name"> Arthas </span></td>
+            <td> <span class="hero_name"> Diablo </span></td>
+            <td> <span class="hero_name"> Illidan </span></td>
+            <td> <span class="hero_name"> Kerrigan </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Malfurion </span></td>
+            <td> <span class="hero_name"> Muradin </span></td>
+            <td> <span class="hero_name"> Nazeebo </span></td>
+            <td> <span class="hero_name"> Nova </span></td>
+            <td> <span class="hero_name"> Raynor </span></td>
+            <td> <span class="hero_name"> Sgt. Hammer </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> Sonya </span></td>
+            <td> <span class="hero_name"> Tyrael </span></td>
+            <td> <span class="hero_name"> Tyrande </span></td>
+            <td> <span class="hero_name"> Uther </span></td>
+            <td> <span class="hero_name"> Valla </span></td>
+            <td> <span class="hero_name"> Zeratul </span></td>
+        </tr>
+        <tr>
+            <td> <span class="hero_name"> E.T.C. </span></td>
+            <td> <span class="hero_name"> Falstad </span></td>
+            <td> <span class="hero_name"> Gazlowe </span></td>
+            <td> <span class="hero_name"> Stitches </span></td>
+            <td> <span class="hero_name"> Tassadar </span></td>
+        </tr>
+    </table>
+    <!-- {% endblock %} -->
+
+    <!-- <script src="app.js"></script> -->
+    <script src="app.py"></script>
+</body>
+</html>
+
+
+<!-- pics 675px/500px -->

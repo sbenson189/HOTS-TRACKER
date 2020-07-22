@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+body .navbar {
+  background-color: #0237aa;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 1em;
+  font-family: 'Saira Stencil One', cursive;
+}
+
+body .navbar .title {
+  color: black;
+}
+
+body .navbar a, body .navbar a:link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 28px;
+  padding: 0 5px 0 5px;
+}
+
+body .navbar a:hover {
+  color: red;
+  -webkit-transition: .29s;
+  transition: .29s;
+  -webkit-transition-duration: .29s;
+          transition-duration: .29s;
+}
+
+body .navbar .sign-in {
+  display: inline;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+body #role_select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+}
+
+body #role_select a:hover {
+  color: white;
+  -webkit-transition: .35s;
+  transition: .35s;
+}
+
+body table {
+  color: darkgray;
+}
+
+body table a:hover {
+  color: white;
+}
+
+body table .hero_portrait {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgba(173, 184, 235, 0.8);
+  padding: 3px;
+}
+
+body table .hero_portrait:hover {
+  padding: 0;
+  -webkit-box-shadow: 0 0 12px white;
+          box-shadow: 0 0 12px white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+body table .hero_name {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

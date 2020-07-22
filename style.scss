@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+        color: darkgray;
+    }
+
+    .navbar {
+        background-color: rgb(2, 55, 170);
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 1em;
+        font-family: 'Saira Stencil One', cursive;
+
+        .title {
+            color: black;
+        }
+
+        a, a:link {
+        text-decoration: none;  
+        color: whitesmoke;
+        font-size: 28px;
+        padding: 0 5px 0 5px;
+        }
+
+        a:hover {
+            color: red;
+            transition: .29s;
+            transition-duration: .29s;
+        }
+
+        .sign-in{
+            display: inline;
+            float: right;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+    #role_select {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 25px;
+        
+        a:hover {
+            color: white;
+            transition: .35s;
+        }
+    }
+
+    table {
+        color: darkgray;
+
+        a:hover {
+            color: white;
+        }
+
+        .hero_portrait {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid rgba(173, 184, 235, 0.8);
+            padding: 3px;
+        }
+
+        .hero_portrait:hover {
+            padding: 0;
+            box-shadow: 0 0 12px white;
+            transition: .2s;
+        }
+
+        .hero_name {
+            display: block;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+    }
+
+}
+

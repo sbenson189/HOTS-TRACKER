@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}HOTS TRACKER{% endblock %}</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <nav class='navbar'>
+            <a href="/" class="title">HOTS TRACKER</a>
+            <a href="/">HOME</a>
+            <a href="/heroes">HEROES</a>
+            <a href="/">LEADERBOARD</a>
+            <a href="/">PLAYER</a>
+            <a href="/">ABOUT</a>
+            <nav class='navbar sign-in'>
+                <a href="/" class='navbar sign-in'>SIGN-IN</a>
+            </nav>
+        </nav>
+        <h1>Header1</h1>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <aside>
+    </aside>
+
+</body>
+<!-- <script src="app.js"></script> -->
+<script src="app.py"></script>
+</html>
+
